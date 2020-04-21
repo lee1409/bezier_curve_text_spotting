@@ -18,7 +18,7 @@ def main():
     parser = argparse.ArgumentParser(description="PyTorch Object Detection Webcam Demo")
     parser.add_argument(
         "--config-file",
-        default="configs/pointmask/R-50_def_2x2_c.yaml",
+        default="configs/word_bezier.yaml",
         metavar="FILE",
         help="path to config file",
     )
